@@ -14,3 +14,5 @@ note: eslint
 yarn dev -> inicializar o servidor
 
 yarn dev:debug -> inicializar debug
+
+*add the migrations and seeds to the "scripts" at "package.json"
