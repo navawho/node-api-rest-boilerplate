@@ -1,29 +1,21 @@
 {
-  "name": "animaisufc",
+  "name": "node-api-template",
   "version": "1.0.0",
-  "main": "app.js",
-  "repository": "git@github.com:navarrotheus/animaisufc.git",
+  "main": "index.js",
+  "repository": "git@github.com:navarrotheus/node-api-template.git",
   "author": "navarrotheus <matheusnavarro@alu.ufc.br>",
   "license": "MIT",
   "scripts": {
-    "createTables": "node src/database/migrations/createTables.js",
-    "ageTrigger": "node src/database/migrations/ageTrigger.js",
-    "createAll": "yarn createTables && yarn ageTrigger",
-    "seedTables": "node src/database/seeds/seed1.js",
-    "dropSchema": "node src/database/migrations/dropSchema.js",
+    "seedExample": "node src/database/seeds/example.js",
+    "migrationExample": "node src/database/migrations/example.js",
     "dev": "nodemon src/server.js",
     "dev:debug": "nodemon --inspect src/server.js"
   },
   "dependencies": {
-    "@sentry/node": "5.12.2",
-    "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-async-errors": "^3.1.1",
-    "multer": "^1.4.2",
     "pg": "^7.12.1",
     "pg-hstore": "^2.3.3",
-    "youch": "^2.0.10"
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
