@@ -17,6 +17,8 @@ routes.get('/dogs', DogController.index);
 routes.get('/dogs/:id', DogController.indexById);
 routes.post('/dogs', DogController.store);
 
+routes.get('/files', FileController.index);
+routes.get('/files/:id', upload.single('file'), FileController.indexById);
 routes.post('/files', upload.single('file'), FileController.store);
 
 export default routes;

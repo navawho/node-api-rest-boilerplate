@@ -10,6 +10,20 @@ class FileController {
 
     return res.json(rows[0]);
   }
+
+  async index(req, res) {
+    const { rows } = await file.getFiles();
+
+    return res.json(rows);
+  }
+
+  async indexById(req, res) {
+    const { id } = req.params;
+
+    const { rows } = await file.getFileById(id);
+
+    return res.json(rows[0]);
+  }
 }
 
 export default new FileController();

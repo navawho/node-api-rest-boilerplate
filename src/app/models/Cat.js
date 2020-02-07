@@ -2,14 +2,16 @@ const db = require('../../database/pool');
 
 class Cat {
   async getCats() {
-    const cats = db.query(`select name, description, sex from cat`);
+    const cats = db.query(
+      `select id, file_id, name, description, sex from cat`
+    );
 
     return cats;
   }
 
   async getCatById(id) {
     const cat = db.query(
-      `select name, description, sex from cat where id=${id}`
+      `select file_id, name, description, sex from cat where id=${id}`
     );
 
     return cat;
