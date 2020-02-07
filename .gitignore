@@ -103,7 +103,6 @@ dist
 # TernJS port file
 .tern-port
 
-# Images
-*.png
-*.jpg
-*.jpeg
+# Uploads
+tmp/uploads/*
+!tmp/uploads/.gitkeep
