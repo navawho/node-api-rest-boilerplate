@@ -6,7 +6,7 @@
 <p align = "center">
    <a href="#bookmark_tabs-instructions">Instructions</a>&nbsp;|&nbsp;
    <a href="#file_folder-features">Features</a>&nbsp;|&nbsp;
-   <a href="#scroll-scripts">Scripts</a>&nbsp;|&nbsp;
+   <a href="#scroll-scripts">Scripts</a>&nbsp;
 </p>
 
 ## :bookmark_tabs: Instructions
