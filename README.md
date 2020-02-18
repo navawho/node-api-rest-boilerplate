@@ -47,7 +47,7 @@
     * > yarn dev
 1. Create the database:
     * > yarn createAll
-    * [Check more scripts]()
+    * [Check more scripts](https://github.com/navarrotheus/node-api-rest-boilerplate#scroll-scripts)
 1. Open the insomnia to test your [routes](https://github.com/navarrotheus/node-api-rest-boilerplate/blob/master/src/routes.js)
     * [How to use](https://support.brightcove.com/use-insomnia-api-requests)
 1. Code :)
