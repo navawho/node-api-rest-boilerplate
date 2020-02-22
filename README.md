@@ -71,7 +71,7 @@
 * [Prettier](https://prettier.io/)
 * [EditorConfig](https://editorconfig.org/)
 * [Sentry](https://sentry.io/welcome/)
-  * Change the S_DNS at [.env.example](https://github.com/navarrotheus/node-api-rest-boilerplate/blob/master/.env.example) if you with to use
+  * Change the S_DNS at [.env.example](https://github.com/navarrotheus/node-api-rest-boilerplate/blob/master/.env.example) if you wish to use
 * [Multer](https://github.com/expressjs/multer)
     * File upload
 * [Jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken)
