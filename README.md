@@ -16,10 +16,7 @@
     * [Docker](https://docs.docker.com/install/) (Optional)
     * [Postbird](https://www.electronjs.org/apps/postbird) / [pgAdmin](https://www.pgadmin.org/download/) (Optional)
     * [Insomnia](https://insomnia.rest/download/) (Optional)
-1. Clone the repository to some folder:
-    * > git clone https://github.com/navarrotheus/node-api-rest-boilerplate.git
-    * Or
-    * > git clone git@github.com:navarrotheus/node-api-rest-boilerplate.git
+1. Clone the repository to some folder
 1. Install the depedencies running the following command at the repository folder:
     * > yarn
 1. Create the local database with docker:
